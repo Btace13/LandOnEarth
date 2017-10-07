@@ -22,8 +22,8 @@ four.onclick = function () {
 }
 var back = document.getElementById('btn_back');
 back.onclick = function () {
-    document.getElementById('four').style.display = "none"
-    document.getElementById('three').style.display = "block"
+    document.getElementById('three').style.display = "none"
+    document.getElementById('four').style.display = "block"
 }
 var five = document.getElementById('btn_five');
 five.onclick = function () {
